@@ -32,8 +32,8 @@ func main() {
 	partsOfUrl := &url.URL{
 		Scheme:  "https",
 		Host:    "lco.dev",
-		Path:    "/tutcss",
-		RawPath: "user=hitesh",
+		Path:    "tutcss",
+		RawQuery: "user=hitesh",
 	}
 
 	anotherURL := partsOfUrl.String()
